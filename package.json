@@ -1,0 +1,56 @@
+{
+  "name": "react-project-template",
+  "version": "1.0.0",
+  "description": "project template with react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "build": "webpack",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedarobo/react-project-template.git"
+  },
+  "keywords": [
+    "react",
+    "temaplate"
+  ],
+  "author": "gedarobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedarobo/react-project-template/issues"
+  },
+  "homepage": "https://github.com/gedarobo/react-project-template#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bundle-loader": "^0.5.5",
+    "clean-webpack-plugin": "^0.1.16",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "history": "^4.6.3",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy": "^1.16.2",
+    "immutable": "^3.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "3.0.0-beta.7",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-immutablejs": "0.0.8",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
